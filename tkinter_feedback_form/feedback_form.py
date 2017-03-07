@@ -10,7 +10,6 @@ class Feedback:
 
     def __init__(self, master):
 
-
         master.title('Explore Oregon Feedback')
         master.resizable(False, False)
         master.configure(background = '#e1d8b9')
@@ -20,7 +19,6 @@ class Feedback:
         self.style.configure('Tbutton', background = '#e1d8b9')
         self.style.configure('TLabel', background = '#e1d8b9', font = ('Arial', 11))
         self.style.configure('header.TLabel', font = ('Arial', 18, 'bold'))
-        
             
         self.frame_header = ttk.Frame(master)#header frame
         self.frame_header.pack()
