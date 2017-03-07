@@ -53,7 +53,6 @@ class Feedback:
         self.clear()
         messagebox.showinfo(title = "Explore Oregon Feedback", message = "Comments Submitted!")
         
-        
     def clear(self):
         self.entry_name.delete(0, 'end')
         self.entry_email.delete(0, 'end')
